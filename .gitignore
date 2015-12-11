@@ -6,3 +6,21 @@ pom.xml.next
 release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
+
+*.class
+*.log
+.DS_Store
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+#IDE files#
+.idea/
+*.iml
+/.settings
+/.project
+/.classpath
+
+/*_override.properties
