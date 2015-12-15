@@ -39,7 +39,7 @@ public class RatpackGuiceConfigModule extends AbstractModule {
                     bind(int.class).annotatedWith(Names.named(nodeName)).toInstance(intValue);
                 } catch (NumberFormatException e) {
                 }
-                bind(boolean.class).annotatedWith(Names.named(nodeName)).toInstance(node.booleanValue());
+                bind(boolean.class).annotatedWith(Names.named(nodeName)).toInstance(Boolean.valueOf(text));
             }
             return;
         }
