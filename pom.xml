@@ -4,7 +4,7 @@
   <parent>
     <groupId>no.cantara.emi</groupId>
     <artifactId>parent</artifactId>
-    <version>4</version>
+    <version>8</version>
   </parent>
 
   <groupId>no.cantara</groupId>
@@ -56,10 +56,10 @@
   </repositories>
 
   <properties>
-    <ratpack.version>1.1.1</ratpack.version>
+    <ratpack.version>1.7.6</ratpack.version>
     <slf4j.version>1.7.13</slf4j.version>
     <freemarker.version>2.3.23</freemarker.version>
-    <jackson.version>2.10.0</jackson.version>
+    <jackson.version>2.10.2</jackson.version>
   </properties>
 
   <dependencies>
