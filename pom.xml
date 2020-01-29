@@ -150,8 +150,8 @@
             <version>2.10.2</version>
             <exclusions>
                 <exclusion>
-                    <groupId>com.google.inject</groupId>
-                    <artifactId>guice</artifactId>
+                    <groupId>com.google.guava</groupId>
+                    <artifactId>guava</artifactId>
                 </exclusion>
             </exclusions>  
         </dependency>
@@ -214,6 +214,10 @@
                     <groupId>com.google.inject</groupId>
                     <artifactId>guice</artifactId>
                 </exclusion>
+                <exclusion>
+                    <groupId>com.google.guava</groupId>
+                    <artifactId>guava</artifactId>
+                </exclusion>
 
             </exclusions>
     </dependency>
@@ -223,6 +227,13 @@
        <artifactId>guice</artifactId>
         <version>4.2.2</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+    <dependency>
+       <groupId>com.google.guava</groupId>
+       <artifactId>guava</artifactId>
+       <version>28.2-jre</version>
+    </dependency>
+
 
     <dependency>
       <groupId>org.slf4j</groupId>
