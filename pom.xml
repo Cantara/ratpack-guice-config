@@ -9,14 +9,14 @@
 
   <groupId>no.cantara</groupId>
   <artifactId>ratpack-guice-config</artifactId>
-  <version>0.18</version>
+  <version>0.19-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <scm>
     <developerConnection>scm:git:git@github.com:Cantara/ratpack-guice-config.git</developerConnection>
     <connection>scm:git:git@github.com:Cantara/ratpack-guice-config.git</connection>
     <url>https://github.com/Cantara/ratpack-guice-config</url>
-    <tag>ratpack-guice-config-0.18</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <repositories>
